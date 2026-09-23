@@ -1,0 +1,9 @@
+backbone: Recurrent-Llama-T32
+checkpoint: smcleish/Recurrent-Llama-3.2-train-recurrence-32
+revision: a5f6f126e9d9302445346844f1d7d29d111a06eb
+recurrent_depth: 32
+discovery_depth: 12
+block_size: 32
+mass_threshold: 0.95
+discovery_steps: [9, 10, 11, 12]
+dtype: bfloat16

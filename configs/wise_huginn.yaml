@@ -1,0 +1,10 @@
+backbone: Huginn
+checkpoint: tomg-group-umd/huginn-0125
+revision: bb6621b65e90b6a4b9b29ef88dc83866d450470c
+recurrent_depth: 32
+discovery_depth: 12
+block_size: 32
+mass_threshold: 0.95
+discovery_steps: [9, 10, 11, 12]
+dtype: bfloat16
+decoding: {do_sample: false, use_cache: false, max_new_tokens: 32}

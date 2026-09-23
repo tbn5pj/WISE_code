@@ -1,0 +1,7 @@
+benchmark,eta,f1,delta_f1_vs_full,delta_f1_ci_low,delta_f1_ci_high,answer_changes_out_of_100,density_pct,retained_future_mass_pct
+HotpotQA,0.9,0.2102,-0.0161,-0.0489,0.0133,50,30.2,93.3
+HotpotQA,0.95,0.2317,0.0054,-0.0171,0.0261,24,45.0,96.7
+HotpotQA,0.99,0.2212,-0.0051,-0.0123,0.0,6,77.8,99.4
+2WikiMultihopQA,0.9,0.2309,-0.0207,-0.0542,0.0077,38,35.2,93.7
+2WikiMultihopQA,0.95,0.2497,-0.0019,-0.0133,0.0077,16,49.6,96.9
+2WikiMultihopQA,0.99,0.2541,0.0025,0.0,0.0075,6,80.0,99.5

@@ -1,0 +1,6 @@
+# `pip install -e '.[test,plots]'` is preferred; this file is a convenience.
+torch>=2.5
+numpy>=1.24
+transformers>=4.45
+huggingface_hub>=0.25
+pytest>=8

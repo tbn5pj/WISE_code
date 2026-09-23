@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wise-recurrent-attention"
+version = "0.1.0"
+description = "Working-Set Inference for recurrent language models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "WISE Contributors"}]
+dependencies = ["torch>=2.5", "numpy>=1.24", "transformers>=4.45", "huggingface_hub>=0.25"]
+
+[project.optional-dependencies]
+systems = ["triton>=3.8,<3.9"]
+plots = ["matplotlib>=3.7"]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["wise*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
