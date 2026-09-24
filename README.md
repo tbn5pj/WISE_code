@@ -4,6 +4,7 @@
 <p align="center"><strong>Discover early. Reuse late. Keep refining.</strong></p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2609.27373">Paper (arXiv)</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#reproducing-the-paper">Reproduce results</a> ·
   <a href="#gpu-attention-benchmark">GPU benchmark</a> ·
@@ -12,7 +13,7 @@
 
 WISE is a training-free inference method for recurrent language models. It observes that attention **routing support can stabilize before the representations being refined**. Rather than repeatedly searching the entire context, WISE discovers a block-structured working set during early recurrent steps and reuses **only its support** later; hidden states, Q/K/V, and within-support attention weights remain dynamic.
 
-**Paper:** *Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models*. The public arXiv URL and complete author list will be added after author confirmation.
+**Paper:** [*Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models*](https://arxiv.org/abs/2609.27373) — **Ke Wan and Chen Chen**, arXiv:2609.27373 (2026). [PDF](https://arxiv.org/pdf/2609.27373)
 
 ## How WISE works
 
@@ -111,4 +112,17 @@ Do **not** substitute random Q/K/V and label the result a reproduction of the pa
 
 ## Citation and license
 
-The final arXiv identifier and complete author list will be included here once supplied; do not use the OpenReview submission number as a replacement for a public paper citation. Code is distributed under the [MIT License](LICENSE). Model checkpoints, model remote code, and public datasets retain their original third-party terms.
+If you use WISE, please cite our [arXiv preprint](https://arxiv.org/abs/2609.27373). A machine-readable citation is available in [`CITATION.cff`](CITATION.cff).
+
+```bibtex
+@misc{wan2026wise,
+  title        = {Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models},
+  author       = {Wan, Ke and Chen, Chen},
+  year         = {2026},
+  eprint       = {2609.27373},
+  archivePrefix = {arXiv},
+  url          = {https://arxiv.org/abs/2609.27373}
+}
+```
+
+Code is distributed under the [MIT License](LICENSE). Model checkpoints, model remote code, and public datasets retain their original third-party terms.
