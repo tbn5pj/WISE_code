@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use WISE, please cite the arXiv paper below."
+type: software
+title: "WISE: Working-set Inference with Support Exploitation"
+authors:
+  - family-names: Wan
+    given-names: Ke
+  - family-names: Chen
+    given-names: Chen
+repository-code: "https://github.com/tbn5pj/WISE_code"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models"
+  authors:
+    - family-names: Wan
+      given-names: Ke
+    - family-names: Chen
+      given-names: Chen
+  year: 2026
+  url: "https://arxiv.org/abs/2609.27373"
