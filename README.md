@@ -1,6 +1,6 @@
 <h1 align="center">WISE</h1>
 <p align="center"><strong>Working-set Inference with Support Exploitation</strong></p>
-<p align="center"><em>Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models</em></p>
+<p align="center"><em>Attention Routing Stabilizes Early: Working-Set Inference for Recurrent-Depth Language Models</em></p>
 <p align="center"><strong>Discover early. Reuse late. Keep refining.</strong></p>
 
 <p align="center">
