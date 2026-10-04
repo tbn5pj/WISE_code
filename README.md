@@ -13,7 +13,7 @@
 
 WISE is a training-free inference method for recurrent language models. It observes that attention **routing support can stabilize before the representations being refined**. Rather than repeatedly searching the entire context, WISE discovers a block-structured working set during early recurrent steps and reuses **only its support** later; hidden states, Q/K/V, and within-support attention weights remain dynamic.
 
-**Paper:** [*Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models*](https://arxiv.org/abs/2609.27373) — **Ke Wan and Chen Chen**, arXiv:2609.27373 (2026). [PDF](https://arxiv.org/pdf/2609.27373)
+**Paper:** [*Attention Routing Stabilizes Early: Working-Set Inference for Recurrent-Depth Language Models*](https://arxiv.org/abs/2609.27373) — **Ke Wan and Chen Chen**, arXiv:2609.27373 (2026). [PDF](https://arxiv.org/pdf/2609.27373)
 
 ## How WISE works
 
